@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS fichiers
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+application.properties
