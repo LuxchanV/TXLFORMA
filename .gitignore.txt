@@ -1,24 +1,36 @@
-# Node
+# ===========================
+# FRONTEND REACT
+# ===========================
 node_modules/
 dist/
 build/
+.env
+.env.local
+.env.production
+npm-debug.log*
 
-# Java / Spring Boot
-target/
-*.class
+# ===========================
+# BACKEND SPRING BOOT
+# ===========================
+/target/
+/build/
+*.log
 *.jar
 *.war
-*.log
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
 
-# IDE
+# ===========================
+# IDE & OS TRASH FILES
+# ===========================
 .vscode/
 .idea/
 *.iml
+*.class
 
-# OS fichiers
-.DS_Store
+# Windows
 Thumbs.db
+$RECYCLE.BIN/
 
-# Environment
-.env
-application.properties
+# Mac / Linux
+.DS_Store
