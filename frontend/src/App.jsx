@@ -13,7 +13,7 @@ export default function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<h2>Bienvenue sur la plateformeeeee 🎓</h2>} />
+        <Route path="/" element={<h2>Bienvenue sur la plateforme 🎓</h2>} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
       </Routes>
