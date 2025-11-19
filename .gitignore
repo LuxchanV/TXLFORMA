@@ -1,0 +1,36 @@
+# ===========================
+# FRONTEND REACT
+# ===========================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.production
+npm-debug.log*
+
+# ===========================
+# BACKEND SPRING BOOT
+# ===========================
+/target/
+/build/
+*.log
+*.jar
+*.war
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# IDE & OS TRASH FILES
+# ===========================
+.vscode/
+.idea/
+*.iml
+*.class
+
+# Windows
+Thumbs.db
+$RECYCLE.BIN/
+
+# Mac / Linux
+.DS_Store
